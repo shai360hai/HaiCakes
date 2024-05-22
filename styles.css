@@ -28,8 +28,8 @@ img {
     border-radius: 50%; /* Makes the card round */
     padding: 20px;
     margin: 10px;
-    width: 100px; /* Smaller width */
-    height: 100px; /* Smaller height to make it round */
+    width: 50px; /* Smaller width */
+    height: 50px; /* Smaller height to make it round */
     display: inline-block;
     vertical-align: top;
     text-align: center;
