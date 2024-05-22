@@ -25,14 +25,17 @@ footer {
 
 .cake-card {
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 50%; /* Makes the card round */
     padding: 20px;
     margin: 10px;
-    width: 300px;
+    width: 150px; /* Smaller width */
+    height: 150px; /* Smaller height to make it round */
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    overflow: hidden; /* Ensures content doesn't overflow the round card */
 }
+
 
 .cake-card img {
     width: 100px; /* Smaller width */
