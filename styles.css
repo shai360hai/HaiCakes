@@ -28,8 +28,8 @@ footer {
     border-radius: 50%; /* Makes the card round */
     padding: 20px;
     margin: 10px;
-    width: 150px; /* Smaller width */
-    height: 150px; /* Smaller height to make it round */
+    width: 100px; /* Smaller width */
+    height: 100px; /* Smaller height to make it round */
     display: inline-block;
     vertical-align: top;
     text-align: center;
