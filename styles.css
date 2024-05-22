@@ -23,7 +23,7 @@ footer {
     width: 100%;
 }
 
-.cake-card img {
+img {
     border: 1px solid #ccc;
     border-radius: 50%;
     margin: 10px;
@@ -41,7 +41,7 @@ footer {
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
-    .cake-card img {
+    img {
         width: 80px; /* Smaller width */
         height: 80px; /* Smaller height */
     }
@@ -49,7 +49,7 @@ footer {
 
 /* Media query for very small screens */
 @media only screen and (max-width: 400px) {
-    .cake-card img {
+    img {
         width: 50px; /* Smallest width */
         height: 50px; /* Smallest height */
     }
