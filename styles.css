@@ -23,21 +23,37 @@ footer {
     width: 100%;
 }
 
-img {
+.cake-card img {
     border: 1px solid #ccc;
-    border-radius: 50%; /* Makes the card round */
-    padding: 20px;
+    border-radius: 50%;
     margin: 10px;
-    width: 50px; /* Smaller width */
-    height: 50px; /* Smaller height to make it round */
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    overflow: hidden; /* Ensures content doesn't overflow the round card */
+    width: 100px; /* Default width */
+    height: 100px; /* Default height */
 }
 
+/* Media query for larger screens */
+@media only screen and (min-width: 768px) {
+    .cake-card img {
+        width: 150px; /* Larger width */
+        height: 150px; /* Larger height */
+    }
+}
 
-/* styles.css */
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .cake-card img {
+        width: 80px; /* Smaller width */
+        height: 80px; /* Smaller height */
+    }
+}
+
+/* Media query for very small screens */
+@media only screen and (max-width: 400px) {
+    .cake-card img {
+        width: 50px; /* Smallest width */
+        height: 50px; /* Smallest height */
+    }
+}
 
 /* Hide all slides by default */
 .cake-slide {
@@ -68,32 +84,4 @@ img {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Position the "prev" button to the left */
-.prev {
-    left: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* Slideshow container */
-#slideshow-container {
-    position: relative;
-    max-width: 100%;
-}
-
-/* Slide images */
-.cake-slide img {
-    width: 100%;
-    height: auto;
-}
-
-/* Media query for smaller screens */
-@media only screen and (max-width: 600px) {
-    /* Adjust image size for smaller screens */
-    .cake-slide img {
-        width: 80%;
-        margin: 0 auto; /* Center the images */
-    }
-}
+    background-color: rgba(0, 
