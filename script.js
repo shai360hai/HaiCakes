@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const cakeImage = document.createElement("img");
         cakeImage.src = `images/${cake.image}`;
-        cakeImage.alt = cake.name;
+cakeImage.alt = cake.name || "Cake image";
 
         const cakeName = document.createElement("h2");
         cakeName.textContent = cake.name;
