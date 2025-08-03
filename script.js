@@ -44,6 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     showSlides(slideIndex);
+    setInterval(() => {
+    plusSlides(1);
+}, 5000); // Change slide every 5 seconds
+
 });
 
 function plusSlides(n) {
