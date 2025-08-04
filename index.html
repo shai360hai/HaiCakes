@@ -8,10 +8,26 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Cake Shop</h1>
-        <p>Delicious cakes for every occasion!</p>
-    </header>
+  <header style="position: relative; text-align: center; color: white;">
+
+    <!-- תמונת הבאנר -->
+    <img src="https://i.ibb.co/VX7F2vX/Whats-App-Image-2025-07-28-at-10-04-59.jpg" 
+         alt="Cake Shop Banner" 
+         style="width: 100%; height: auto; display: block;">
+
+    <!-- לוגו קטן בפינה -->
+    <img src="https://i.ibb.co/gMpLKh47/image.png" 
+         alt="Cake Shop Logo" 
+         style="position: absolute; top: 15px; left: 15px; max-width: 100px; height: auto; z-index: 2;">
+
+    <!-- טקסט על הבאנר -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+        <h1 style="margin: 0; font-size: 3em; text-shadow: 1px 1px 4px rgba(0,0,0,0.5);">Welcome to Our Cake Shop</h1>
+        <p style="font-size: 1.5em; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">Delicious cakes for every occasion!</p>
+    </div>
+
+</header>
+
 
     <main>
         <div id="slideshow-container">
